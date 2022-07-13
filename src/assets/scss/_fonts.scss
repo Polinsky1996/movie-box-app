@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.sm-font-block {
+    @include xs {
+        font-size: 0.875rem;
+    }
+
+    @include sm {
+        font-size: 1rem;
+    }
+
+    @include md {
+        font-size: 1rem;
+    }
+}
